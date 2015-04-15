@@ -1,5 +1,5 @@
 ;	Hello world
-;	Linux x86-64
+;	Linux x64
 ;
 ;	General Purpose Registers for
 ;	8 bit:		AL/AH, CL/CH, DL/DH, BL/BH, SPL, BPL, SIL, DIL, R8B-R15B 
