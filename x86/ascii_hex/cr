@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# compile
+nasm -f elf ascii_hex.asm
+ls -s -o ascii_hex ascii_hex.o
+
+# dashed line
+printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
+
+# run
+./ascii_hex
