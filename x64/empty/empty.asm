@@ -6,7 +6,7 @@
 global _start
 
 section .data
-pad		db		"somestring",0xa
+txt		db		"somestring",0xa
 
 section	.text
 	
