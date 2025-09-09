@@ -1,3 +1,5 @@
 *.o
-*.pid
+*.obj
 *.hex
+*.pid
+_lib
